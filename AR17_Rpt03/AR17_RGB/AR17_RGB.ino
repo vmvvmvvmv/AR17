@@ -18,9 +18,25 @@ void setup()
 }
 void loop()
 {
-  for(int i=255;i<=255;++i){
-    ledOutput(255,i,0);
-    delay(1000);
+  for(int i=0;i<=255;++i){
+    ledOutput(0,255,i);
+    delay(10);
+  }
+  for(int i=0; i<=255; ++i) {
+    ledOutput(i,0,255);
+    delay(100);
+  }
+  for(int i=0;i<=255;++i) {
+    ledOutput(i, 255, 255);
+    delay(100);
+  }
+  for(int i=0; i<=255; ++i) {
+    ledOutput(255,i,255);
+    delay(100);
+  }
+  for(int i=0; i<=255; ++i) {
+    ledOutput(255,255,i);
+    delay(100);
   }
 }
 void ledOutput(int Red, int Green, int Blue) {
