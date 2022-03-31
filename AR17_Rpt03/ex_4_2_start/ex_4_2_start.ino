@@ -4,7 +4,8 @@
 */
 
 const int ledA   =  3;	  //LED A를 3번핀에 연결
-const int ledB   =  5;	  //LED B를 5번핀에 연결
+const int ledB   =  5;
+int //LED B를 5번핀에 연결
 int brightness = 0;       //밝기를 조절하기 위한 변수
 int increment = 1;       //밝기 변수 증감을 위한 변수
 
